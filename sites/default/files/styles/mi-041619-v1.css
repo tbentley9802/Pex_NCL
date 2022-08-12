@@ -1,0 +1,87 @@
+/*HOME PAGE VIDEO PLAYER*/
+.brand-hero .play-btn > a { font-size: 48px; color: #fff; margin-top: 10px; display: inline-block; }
+.brand-hero .ngi-icon-play:before { content: "\e680"; }
+.brand-hero .videoSimple > .modal-backdrop.fade.in { opacity: .1 }
+.brand-hero .videoModal { display: block; text-align: center; }
+.brand-hero .videoModal .videoLink { display: inline-block; }
+.brand-hero .videoModal .videoLink .videoplay { display: inline-block; }
+.brand-hero .videoModal .videoLink .videotext { display: block; font-size: 16px; font-weight: 700; color: #ffffff; padding: 5px 0; }
+
+/* NEW HOMEPAGE */
+.brand-hero { font-family: 'Futura'; color: #fff; text-align: center; width: auto; display: block; }
+.brand-hero.hp { margin-top: 20px; }
+
+.brand-hero.text-shadow, .brand-hero .text-shadow { text-shadow: 1px 1px 1px #1c4865; }
+
+.brand-hero .hero-tilde { display: block; }
+.brand-hero.hp .hero-tilde { width: 70px; margin: 10px auto 30px; }
+.brand-hero.promo-lockup .hero-tilde { width: 40px; margin: 0px auto 10px; }
+
+.brand-hero .main-headline .first-line { font-size:50px; font-weight: 500; text-transform: uppercase; padding-bottom: 5px; }
+.brand-hero.promo-lockup .main-headline .first-line { font-size:19px; font-weight: 300; letter-spacing: 2px; }
+
+.brand-hero .main-headline .second-line { font-family: Georgia, sans-serif; font-size:24px; font-weight: 300; font-style: italic; padding: 10px 0; line-height: 1; }
+.brand-hero.promo-lockup .main-headline .second-line { font-family: 'Futura'; font-size:53px; font-weight: 300; letter-spacing:1px; font-style: normal; }
+
+.brand-hero .hero-feelfree { width: 150px; margin: 15px auto; display: block; }
+
+.brand-hero.promo-lockup .offer { margin: 0 auto; }
+.brand-hero.promo-lockup .offer .offer-headline { margin-bottom: 10px; }
+.brand-hero.promo-lockup .offer .offer-headline > span { font-size: 22px; }
+.brand-hero.promo-lockup .offer .offer-footer > span { font-size: 28px; }
+
+.brand-hero.promo-lockup .offer.one-column { width: 95% }
+.brand-hero.promo-lockup .offer.one-column .linethrough-left, .brand-hero.promo-lockup .offer.one-column .linethrough-right { display: inline-block; width: 16%; border-bottom: 1px solid #fff; padding-bottom: 10px; }
+.brand-hero.promo-lockup .offer.one-column .linethrough-left { float: left; }
+.brand-hero.promo-lockup .offer.one-column .linethrough-right { float: right; }
+
+.brand-hero.promo-lockup .offer.one-column .offer-footer .linethrough-left, .brand-hero.promo-lockup .offer.one-column .offer-footer .linethrough-right { width: 45%; padding-bottom: 15px; }
+
+.brand-hero.promo-lockup .offer.two-columns { width: 100% }
+
+.brand-hero.promo-lockup .offer .offer-options { display: inline-block; }
+.brand-hero.promo-lockup .offer .offer-options ol { font-size: 18px; text-align: left; font-weight: bold; margin: 0; counter-reset: li; list-style-type: none; }
+.brand-hero.promo-lockup .offer .offer-options ol li { position: relative; }
+.brand-hero.promo-lockup .offer .offer-options ol li:before { content: counter(li)'.'; counter-increment: li; position: absolute; right: 100%; margin-right: 0.35em; }
+.brand-hero.promo-lockup .offer .offer-options ol li span { font-weight: 300; }
+
+.brand-hero.promo-lockup .main-footer > span { font-size: 20px; }
+
+.brand-hero .learnmore { display: inline-block; padding-top: 20px; }
+.brand-hero.hp .learnmore { padding-top: 30px; }
+.brand-hero.promo-lockup .learnmore { padding-top: 10px; }
+.brand-hero .learnmore a { font-family: Arial,Helvetica,sans-serif; font-size: 11px; line-height: 1; font-weight: 700; color: #fff; background: #f5a227; border: 0 none; display: block; margin: 0; padding: 10px 20px; text-align: center; text-shadow: none; }
+.brand-hero .learnmore a:hover { background: #d99531; }
+@media (max-width: 767px) {
+	.brand-hero .main-headline .first-line { font-size: 36px; }
+	.brand-hero.promo-lockup .main-headline .first-line { font-size: 18px; }
+	.brand-hero .main-headline .second-line { font-size: 18px; }
+	.brand-hero.promo-lockup .main-headline .second-line { font-size: 44px; }
+	.brand-hero.promo-lockup .offer.one-column .linethrough-left, .brand-hero.promo-lockup .offer.one-column .linethrough-right { display: none; }
+	.brand-hero.promo-lockup .offer .offer-options ol { font-size: 16px; }
+	.brand-hero.promo-lockup .offer .offer-headline { border-bottom: 1px solid; margin-bottom: 10px; padding-bottom: 5px; }
+	.brand-hero.promo-lockup .offer .offer-headline > span { font-size: 18px; }
+	.brand-hero.promo-lockup .main-footer { border-bottom: 1px solid; padding-bottom: 10px; margin-bottom: 5px; }
+	.brand-hero.promo-lockup .main-footer > span { font-size: 14px; }
+	.brand-hero .lockup-img { height: auto; width: 100%; }
+}
+@media (min-width: 768px) {
+  .brand-hero.hero-left { padding-right: 35%; }
+  .brand-hero.hero-right { padding-left: 35%; }
+  .brand-hero.hero-center { padding-left: 15%; padding-right: 15%; }
+	.brand-hero .lockup-img { max-height: 350px; max-width: 100%; }
+}
+@media (min-width: 992px) {
+	.brand-hero.promo-lockup .offer.one-column { width: 70%; }
+}
+
+.brand-hero #countdown_dhms, .brand-hero #countdown_hms, .brand-hero #countdown_d { font-family: 'Futura'; display: block; color: #fff; text-align: center; text-transform: uppercase; text-shadow: 0px 1px 2px #1c4865; }
+.brand-hero #countdown_dhms > span, .brand-hero #countdown_hms > span , .brand-hero #countdown_d > span { font-size: 20px; display: inline-block; text-align: center; vertical-align: top; line-height: normal; margin: 0; }
+.brand-hero #countdown_dhms > span > span, .brand-hero #countdown_hms > span > span { font-size: 20px; font-weight: 500; padding: 5px 5px 0; }
+.brand-hero #countdown_dhms > span > span:last-child, .brand-hero #countdown_hms > span > span:last-child { display: inline-block; width: 100%; font-size: 14px; font-weight: 100; display: block; }
+.brand-hero #end_date { visibility: hidden; height: 10px; }
+@media (max-width: 767px) { .brand-hero #countdown_dhms, .brand-hero #countdown_hms { width: 100%; padding: 15px 5px 10px; } }
+@media (max-width: 370px) { .brand-hero #countdown_dhms > span, .brand-hero #countdown_dhms > span > span, .brand-hero #countdown_hms > span, .brand-hero #countdown_hms > span > span { font-size: 5vw; } }
+
+/* HP MOBILE IMG */
+.m6_hero .m6_hero_figure .c5_figure .c5_mobile { height: 475px; }
